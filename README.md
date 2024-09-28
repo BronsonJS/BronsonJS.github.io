@@ -45,6 +45,9 @@ To effectively address the objective and create meaningful visual insights for c
 
 - The data is sourced from a CSV file on Kaggle. [See here to find it](https://www.kaggle.com/datasets/radheshyamkollipara/bank-customer-churn).
 
-  #Stages
+# Stages
+
+![Stages-Diagram](assets/images/StagesImage.png)
+
 
   
