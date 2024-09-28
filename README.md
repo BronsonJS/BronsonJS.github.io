@@ -75,7 +75,7 @@ To effectively address the objective and create meaningful visual insights for c
 *Purpose*: Shows how the number of products a customer holds affects churn rates.  
 *Why*: Understanding the relationship between product engagement and churn allows the bank to incentivize customers to use more products.
 
-# Tools
+## Tools
 
 | Tool        | Purpose                                              |
 |-------------|------------------------------------------------------|
@@ -83,3 +83,26 @@ To effectively address the objective and create meaningful visual insights for c
 | SQL Server  | Cleaning, Testing, and Analyzing the data            |
 | Power BI    | Visualizing the data with interactive dashboards     |
 | GitHub      | Hosting the project documentation and version control |
+
+# Development 
+
+- Whats the general approach in creating this solution from start to finish?
+
+ 1.	Get the data
+ 2.	Explore the data in Excel
+ 3.	Load the data into SQL Server
+ 4.	Clean the data with SQL
+ 5.	Test the data with SQL
+ 6.	Visualize the data in Power BI
+ 7.	Generate the findings based on the insights
+ 8.	Report the documentation 
+ 9.	Publish the data to GitHub Pages
+
+## Data Exploration Notes
+
+- What are your initial observations with this dataset? What’s caught your attention so far?
+
+  1. The dataset includes a variety of columns, including demographic, financial, and behavioural data. This signals that we have a comprehensive dataset to address the churn analysis without needing additional data.
+  2. The column names are clear and self-explanatory, with no need for renaming or reformatting, except for minor formatting
+  3. The data types seem appropriate, with numerical values where expected and categorical values clearly defined
+  4. Some customers have a balance of 0, which could either represent actual zero balances or missing/incorrect data for those accounts. This needs further investigation to determine if these zeros affect churn rates significantly.
