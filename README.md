@@ -49,5 +49,30 @@ To effectively address the objective and create meaningful visual insights for c
 
 ![Stages-Diagram](Assets/Images/StagesImage.png)
 
+# Design 
+
+## Dashboard Components Required
+
+- What should the dashboard contain based on the requirements provided
+
+**Churn Rate**  
+*Purpose*: Provides a high-level overview of the overall churn rate.  
+*Why*: This KPI gives the retention team a quick understanding of how many customers are leaving.
+
+**Churn by Country**  
+*Purpose*: Compares churn rates across countries.  
+*Why*: A bar chart is effective for comparing churn across the three primary countries in the dataset: France, Spain, and Germany.
+
+**Churn by Salary**  
+*Purpose*: Displays churn distribution across salary brackets.  
+*Why*: Customers with different income levels may show varying churn risks, helping target retention efforts by salary range.
+
+**Balance vs. Churn**  
+*Purpose*: Visualizes how customer account balances influence churn.  
+*Why*: Provides insight into whether customers with lower balances are more likely to churn.
+
+**Churn by Number of Products**  
+*Purpose*: Shows how the number of products a customer holds affects churn rates.  
+*Why*: Understanding the relationship between product engagement and churn allows the bank to incentivize customers to use more products.
 
   
