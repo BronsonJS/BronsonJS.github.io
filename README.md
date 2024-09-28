@@ -2,21 +2,21 @@
 
 # Objective
 
-- **What is the key pain point?**
+- What is the key pain point?
 
   The Head of Customer Retention at the bank needs to understand the factors that lead to the risk of customer churn. They want to use visual insights to identify trends in customer demographics, behaviour, and satisfaction levels to reduce churn rates and improve customer retention strategies.
 
-- **What is the ideal solution?**
+- What is the ideal solution?
 
   The ideal solution is to develop an interactive dashboard that visualises customer churn patterns based on key factors such as Geography, Salary, Balance, and Product Usage. The dashboard should provide:
 
-- **Churn Rate Overview**: A high-level view of the total churn rate to quickly identify the overall scale of customer attrition.
+- Churn Rate Overview: A high-level view of the total churn rate to quickly identify the overall scale of customer attrition.
   
-- **Breakdown of Churned vs. Retained Customers**: Visuals that compare churned and retained customers across segments like geographic regions and financial brackets.
+- Breakdown of Churned vs. Retained Customers: Visuals that compare churned and retained customers across segments like geographic regions and financial brackets.
   
-- **Product Usage Insights**: Analysis of how the number of products a customer owns influences churn, helping to understand engagement levels.
+- Product Usage Insights: Analysis of how the number of products a customer owns influences churn, helping to understand engagement levels.
   
-- **Clear, Actionable Visuals**: Easy-to-understand graphs and charts that highlight key trends and factors contributing to churn, enabling the retention team to quickly target at-risk segments.
+- Clear, Actionable Visuals: Easy-to-understand graphs and charts that highlight key trends and factors contributing to churn, enabling the retention team to quickly target at-risk segments.
 
 This dashboard will empower the customer retention team to proactively address churn by focusing on segments most at risk, ultimately enhancing customer loyalty and improving retention strategies.
 
@@ -44,3 +44,7 @@ To effectively address the objective and create meaningful visual insights for c
 - Churn Status
 
 - The data is sourced from a CSV file on Kaggle. [See here to find it](https://www.kaggle.com/datasets/radheshyamkollipara/bank-customer-churn).
+
+  #Stages
+
+  
