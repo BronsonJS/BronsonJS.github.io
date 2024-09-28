@@ -47,7 +47,7 @@ To effectively address the objective and create meaningful visual insights for c
 
 # Stages
 
-![Stages-Diagram](assets/images/StagesImage.png)
+![Stages-Diagram](Assets/Images/StagesImage.png)
 
 
   
