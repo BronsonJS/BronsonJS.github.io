@@ -7,8 +7,8 @@
   The Head of Customer Retention at the bank needs to understand the factors that lead to the risk of customer churn. They want to use visual insights to identify trends in customer demographics, behaviour, and satisfaction levels to reduce churn rates and improve customer retention strategies.
 
 - **What is the ideal solution?**
-  
-The ideal solution is to develop an interactive dashboard that visualises customer churn patterns based on key factors such as Geography, Salary, Balance, and Product Usage. The dashboard should provide:
+
+  The ideal solution is to develop an interactive dashboard that visualises customer churn patterns based on key factors such as Geography, Salary, Balance, and Product Usage. The dashboard should provide:
 
 - **Churn Rate Overview**: A high-level view of the total churn rate to quickly identify the overall scale of customer attrition.
   
@@ -31,3 +31,14 @@ The dashboard should enable me to:
 - Identify high-risk customer segments most likely to churn, based on financial behaviours and engagement levels with bank products.
   
 - Make informed, data-driven decisions to develop targeted retention strategies that focus on retaining customers most at risk of leaving.
+
+# Data Source 
+
+- What data is needed to address the objective?
+
+To effectively address the objective and create meaningful visual insights for customer churn, the dataset should include the following key data points:
+
+- Geography
+- Financial Information
+- Product Usage
+- Churn Status
