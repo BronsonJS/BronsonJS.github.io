@@ -124,6 +124,5 @@ SELECT
     NumOfProducts,
     Exited
 FROM 
-    customer_churn;
-
+    customer_churn; ```
 
