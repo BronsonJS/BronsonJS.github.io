@@ -138,14 +138,20 @@ FROM
 - What type of quality and validation checks are you going to create?
 
 ## 1. Row Count Check
+
+### SQL Query
    
 ``` sql
 /* Row count check */
 SELECT COUNT (*) AS total_rows
 FROM cleaned_customer_churn
 ```
+### Output 
+<img src="Assets/Images/RowCountOutput.png" alt="Alt text" width="500"/>
+
 
 ## 2. Column Count Check 
+### SQL Query
 ``` sql
 /* Column count check */
 SELECT COUNT(*) AS total_columns
@@ -153,3 +159,40 @@ FROM information_schema.columns
 WHERE table_name = 'cleaned_customer_churn';
 ```
 
+### Output 
+<img src="Assets/Images/Column Check.png" alt="Alt text" width="500"/>
+
+## 3. Data Type Check 
+### SQL Query
+
+``` sql
+/* Data type check
+
+Check the data types of each column from the view by checking the INFORMATION SCHEMA view
+*/
+SELECT column_name, data_type
+FROM information_schema.columns
+WHERE table_name = 'cleaned_customer_churn'
+AND table_schema = 'public';
+```
+### Output 
+<img src="Assets/Images/DataTypeCheck.png" alt="Alt text" width="500"/>
+
+## 4. Null and missing value checks 
+### SQL Query
+
+- All counts should be zero:
+
+``` sql
+SELECT 
+    SUM(CASE WHEN Geography IS NULL THEN 1 ELSE 0 END) AS Geography_nulls,
+    SUM(CASE WHEN EstimatedSalary IS NULL THEN 1 ELSE 0 END) AS EstimatedSalary_nulls,
+    SUM(CASE WHEN Balance IS NULL THEN 1 ELSE 0 END) AS Balance_nulls,
+    SUM(CASE WHEN NumOfProducts IS NULL THEN 1 ELSE 0 END) AS NumOfProducts_nulls,
+    SUM(CASE WHEN Exited IS NULL THEN 1 ELSE 0 END) AS Exited_nulls
+FROM 
+    cleaned_customer_churn;
+```
+
+### Output 
+<img src="Assets/Images/NullValueCheck.png" alt="Alt text" width="500"/>
