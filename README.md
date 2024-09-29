@@ -106,3 +106,24 @@ To effectively address the objective and create meaningful visual insights for c
   2. The column names are clear and self-explanatory, with no need for renaming or reformatting, except for minor formatting
   3. The data types seem appropriate, with numerical values where expected and categorical values clearly defined
   4. Some customers have a balance of 0, which could either represent actual zero balances or missing/incorrect data for those accounts. This needs further investigation to determine if these zeros affect churn rates significantly.
+
+## Should we include customers with null or zero balences 
+
+- If Zero Balance Indicates Active Usage: If these customers are still using the bank for other products (e.g., credit cards, loans, or other services), then they should be included in the analysis. Their balance being zero doesn’t necessarily mean they are unengaged.
+
+## Data Cleaning
+
+### Creating a Refined Table with Essential Columns for Churn Analysis
+
+```sql
+CREATE TABLE cleaned_customer_churn AS
+SELECT 
+    Geography,
+    EstimatedSalary,
+    Balance,
+    NumOfProducts,
+    Exited
+FROM 
+    customer_churn;
+
+
