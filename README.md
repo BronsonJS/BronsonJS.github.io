@@ -195,4 +195,85 @@ FROM
 ```
 
 ### Output 
-<img src="Assets/Images/NullValueCheck.png" alt="Alt text" width="500"/>
+<img src="Assets/Images/NullValueCheck.png" alt="Alt text" width="500"/> 
+
+# Visualisation 
+## Results 
+ - What does the dashboard look like?
+
+(input Power BI Dashboard) 
+
+## Dax Measures 
+### 1. Churn Rate (%) 
+``` sql
+Churn Rate (%) = 
+DIVIDE(
+    COUNTROWS(
+        FILTER(
+            'cleaned_customer_churn',
+            'cleaned_customer_churn'[Exited] = TRUE
+        )
+    ),
+    COUNTROWS('cleaned_customer_churn'),
+    0
+) * 100
+```
+
+### 2. Churn Rate by Country (%)
+``` sql
+Churn Rate by Country (%) = 
+VAR ChurnedCustomers =
+    CALCULATE(
+        COUNTROWS('cleaned_customer_churn'),
+        'cleaned_customer_churn'[Exited] = TRUE
+    )
+VAR TotalCustomers =
+    COUNTROWS('cleaned_customer_churn')
+RETURN
+DIVIDE(ChurnedCustomers, TotalCustomers, 0) * 100
+
+```
+### 3. Churn Rate by Number of Products 
+``` sql
+Churn Rate by Number of Products (%) = 
+DIVIDE(
+    CALCULATE(
+        COUNTROWS('cleaned_customer_churn'),
+        'cleaned_customer_churn'[Exited] = TRUE()
+    ),
+    COUNTROWS('cleaned_customer_churn'),
+    0
+)
+
+```
+### 4. Churned Customers 
+``` sql
+Churned Customers = 
+CALCULATE(
+    COUNTROWS('cleaned_customer_churn'),
+    'cleaned_customer_churn'[Exited] = TRUE()
+)
+```
+
+### 5. Retained Customers 
+``` sql
+Retained Customers = 
+CALCULATE(
+    COUNTROWS('cleaned_customer_churn'),
+    'cleaned_customer_churn'[Exited] = FALSE()
+)
+
+```
+
+### 6. Salary Bracket
+``` sql
+Salary Bracket = 
+SWITCH(
+    TRUE(),
+    'cleaned_customer_churn'[EstimatedSalary] < 51000, "< $51k",
+    'cleaned_customer_churn'[EstimatedSalary] >= 51000 && 'cleaned_customer_churn'[EstimatedSalary] < 100000, "$51k - $100k",
+    'cleaned_customer_churn'[EstimatedSalary] >= 100000 && 'cleaned_customer_churn'[EstimatedSalary] < 149000, "$100k - $149k",
+    'cleaned_customer_churn'[EstimatedSalary] >= 149000, "> $149k",
+    "Unknown"
+)
+``` 
