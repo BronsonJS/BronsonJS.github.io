@@ -115,6 +115,11 @@ To effectively address the objective and create meaningful visual insights for c
 
 ### Creating a Refined Table with Essential Columns for Churn Analysis
 
+The aim is to refine our dataset to ensure it is structured and ready for analysis.
+
+ - Only relevant columns should be retained.
+ - All data types should be appropriate for the contents of each column.
+
 ```sql
 CREATE TABLE cleaned_customer_churn AS
 SELECT 
@@ -126,5 +131,25 @@ SELECT
 FROM 
     customer_churn;
 
+```
+
+# Testing
+
+- What type of quality and validation checks are you going to create?
+
+## 1. Row Count Check
+   
+``` sql
+/* Row count check */
+SELECT COUNT (*) AS total_rows
+FROM cleaned_customer_churn
+```
+
+## 2. Column Count Check 
+``` sql
+/* Column count check */
+SELECT COUNT(*) AS total_columns
+FROM information_schema.columns
+WHERE table_name = 'cleaned_customer_churn';
 ```
 
