@@ -276,4 +276,53 @@ SWITCH(
     'cleaned_customer_churn'[EstimatedSalary] >= 149000, "> $149k",
     "Unknown"
 )
-``` 
+```
+
+# Analysis 
+
+- What did we find?
+
+For this analysis, we’re going to focus on the questions below to get the information we need for our Retention Team 
+
+Here are the key questions we need to answer for our marketing client:
+
+1. What is the overall churn rate at the bank?
+2. Which geographic regions have the highest churn rates?
+3. How does salary influence customer churn?
+4. What is the relationship between account balance and churn?
+5. How does the number of products held by a customer affect their likelihood to churn?
+6. What potential revenue loss is associated with churn in high-risk segments?
+7. What strategies can be implemented to reduce churn among high-risk customer groups?
+
+## 1. Overall Churn Rate 
+
+
+## 2. 
+
+To address the churn rates across different countries, we analyze data for Germany, Spain, and France. By designing a targeted retention incentive program, the aim is to decrease churn by offering a $50 account credit or equivalent service upgrade to at-risk customers in each country.
+
+Campaign Idea: Targeted Retention Incentive Program  
+ 
+ - Objective = Reduce customer churn by offering incentives to retain at-risk customers in each country.
+ - Incentive Offered = $50 account credit or equivalent service upgrade.
+ - Conversion Rate = Estimated 10% of targeted customers will accept the offer and stay with the bank.
+ - Campaign Cost per Customer = $50
+ - Average Annual Revenue per Customer = $1,000
+
+1. Germany
+
+- Conversion Rate = 10%
+- Potential Customers Retained = 81 customers  
+  `814 churned customers * 10%`
+- Potential Revenue Retained = $81,000  
+  `81 customers * $1,000 (average annual revenue per customer)`
+- Campaign Cost = $4,050  
+  `81 customers * $50 (incentive per customer)`
+- Net Profit = $76,950  
+  `$81,000 (revenue retained) - $4,050 (campaign cost)`
+- ROI = 1,900%  
+  `($76,950 / $4,050) * 100`
+
+  
+
+
