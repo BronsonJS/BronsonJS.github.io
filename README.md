@@ -312,16 +312,11 @@ Campaign Idea: Targeted Retention Incentive Program
 1. Germany
 
 - Conversion Rate = 10%
-- Potential Customers Retained = 81 customers  
-  `814 churned customers * 10%`
-- Potential Revenue Retained = $81,000  
-  `81 customers * $1,000 (average annual revenue per customer)`
-- Campaign Cost = $4,050  
-  `81 customers * $50 (incentive per customer)`
-- Net Profit = $76,950  
-  `$81,000 (revenue retained) - $4,050 (campaign cost)`
-- ROI = 1,900%  
-  `($76,950 / $4,050) * 100`
+- Potential Customers Retained = 81 customers  `814 churned customers * 10%`
+- Potential Revenue Retained = $81,000  `81 customers * $1,000 (average annual revenue per customer)`
+- Campaign Cost = $4,050  `81 customers * $50 (incentive per customer)`
+- Net Profit = $76,950  `$81,000 (revenue retained) - $4,050 (campaign cost)`
+- ROI = 1,900%   `($76,950 / $4,050) * 100`
 
   
 
