@@ -318,6 +318,12 @@ Campaign Idea: Targeted Retention Incentive Program
 - Net Profit = $76,950  `$81,000 (revenue retained) - $4,050 (campaign cost)`
 - ROI = 1,900%   `($76,950 / $4,050) * 100`
 
-  
+2. Spain
+- Conversion Rate = 10%
+- Potential Customers Retained = 41 customers  `413 churned customers * 10%`
+- Potential Revenue Retained = $41,000  `41 customers * $1,000`
+- Campaign Cost = $2,050  `41 customers * $50`
+- Net Profit = $38,950  `$41,000 - $2,050`
+- ROI = 1,900%  `($38,950 / $2,050) * 100`
 
 
