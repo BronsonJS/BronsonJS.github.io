@@ -201,7 +201,7 @@ FROM
 ## Results 
  - What does the dashboard look like?
 
-<iframe src="Assets/Images/CustomerChurnReport.pdf" width="100%" height="800px"></iframe>
+![Power-BI-Report](Assets/Images/PowerBIReport.png)
 
 ## Dax Measures 
 ### 1. Churn Rate (%) 
