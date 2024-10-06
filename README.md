@@ -201,7 +201,7 @@ FROM
 ## Results 
  - What does the dashboard look like?
 
-(input Power BI Dashboard) 
+![CustomerChurnReport](Assets/Images/CustomerChurnReport.pdf)
 
 ## Dax Measures 
 ### 1. Churn Rate (%) 
