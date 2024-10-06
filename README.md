@@ -201,7 +201,7 @@ FROM
 ## Results 
  - What does the dashboard look like?
 
-[Customer Churn Report](Assets/Images/CustomerChurnReport.pdf)
+<iframe src="Assets/Images/CustomerChurnReport.pdf" width="100%" height="800px"></iframe>
 
 ## Dax Measures 
 ### 1. Churn Rate (%) 
