@@ -20,6 +20,13 @@
 
 This dashboard will empower the customer retention team to proactively address churn by focusing on segments most at risk, ultimately enhancing customer loyalty and improving retention strategies.
 
+## Why does churn matter
+Churn is a key indicator of how well a business retains its customers. High churn rates suggest difficulties in keeping customers engaged, while low churn reflects strong customer loyalty.
+
+Acquiring a new customer costs five times more than retaining an existing one. Furthermore, it can cost 16 times more to bring a new customer to the same value level as a retained customer.
+
+An example: "Harvard Business School report claims that on average, a 5% increase in customer retention rates results in 25% – 95% increase of profits. And the lion’s share – 65% of a company’s business comes from existing customers!" 
+
 ## User Story 
 
 As the Head of Customer Retention, I need a visual dashboard to help me understand and analyse customer churn patterns across the bank's customer base.
